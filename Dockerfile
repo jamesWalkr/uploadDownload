@@ -1,5 +1,5 @@
 #Base image
-FROM openjdk:17-jdk
+FROM eclipse-temurin:17-jdk
 
 #Copying over the Jar file.
 COPY target/fileUploadAndDownload-0.0.1-SNAPSHOT.jar fileUploadAndDownload.jar
