@@ -35,6 +35,8 @@ public interface StorageService {
 	Resource loadAsResource(String fileName);
 
 	void deleteAll();
+
+	public boolean delete(String filename);
 	
 
 }
